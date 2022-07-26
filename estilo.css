@@ -1,0 +1,37 @@
+:root {
+    --preto: #585858;
+    --branco: #e1e1e1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.tabuleiro {
+    display: grid;
+    grid-template-columns: 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
+    grid-template-rows: 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
+}
+
+.celulas {
+    aspect-ratio: 1;
+    width: 4rem;
+    border: 1px solid var(--branco);
+    text-align: center;
+}
+
+.p {
+    background-color: var(--preto);
+    /* color: var(--branco); */
+}
+
+.b {
+    background-color: var(--branco);
+    /* color: var(--preto); */
+}
+
+.peca {
+    font-size: 2rem;
+}
