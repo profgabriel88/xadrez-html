@@ -9,6 +9,14 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
 .tabuleiro {
     display: grid;
     grid-template-columns: 4rem 4rem 4rem 4rem 4rem 4rem 4rem 4rem;
